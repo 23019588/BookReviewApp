@@ -6,10 +6,10 @@ const app = express();
  
 // Create MySQL connection 
 const connection = mysql.createConnection({ 
-    host: 'localhost', 
-    user: 'root', 
-    password: '', 
-    database: 'c237_gaproject' 
+    host: 'sql.freedb.tech', 
+    user: 'freedb_Haniel', 
+    password: '6pbFD3K$GVy85XE', 
+    database: 'freedb_BookReviewApp' 
 }); 
 
 const storage = multer.diskStorage({
